@@ -1,5 +1,13 @@
 [
     {
+        "date": "2024-11-19",
+        "title": "v2.0.0",
+        "items": [
+            "Complete script rewrite",
+            "Now supports all 3 PVME rotations"
+        ]
+    },
+    {
         "date": "2024-02-14",
         "title": "v1.0.6",
         "items": [
