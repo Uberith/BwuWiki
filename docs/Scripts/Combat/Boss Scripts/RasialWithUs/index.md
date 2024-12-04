@@ -51,19 +51,44 @@ import changes from './changes.json'
 :::
 <ContentBlock title="Requirements">
 
-> - Ancient summoning unlocked for blood reaver or hellhound
+Any items marked as recommended are optional, anything else is a strict requirement.
+
+Required by all rotations
+> - Ancient summoning unlocked for blood reaver or hellhound, scrolls if using reaver.
 > - 99+ Necromancy and all necromancy abilities and incantations unlocked from the well of Souls
 > - Invigorating 4 perk required
-> - Igneous Kal-Mor cape (Necromancy Zuk cape) or Igneous Kal-Ket cape
-> - Level 115 herblore for adrenaline renewal potions
+> - Igneous Kal-Mor cape or Igneous Kal-Ket cape
+> - At least 87 herblore for Super adrenaline potions
 > - Haunted mine Quest + enchanted salve amulet
 > - Alpha vs Omega quest complete to fight Rasial
 > - Ring of vigour unlocked, and ideally made passive via Extinction request (not required, bot can vigour switch)
-> - 118 archaeology for Conservation of Energy (or boost from 110)
-> - Supreme invigorate Aura unlocked if using T95 Invigorate rotation
-> - Guildmaster certification recommended
+> - 118 archaeology for Conservation of Energy (boost from 110) OR Supreme Invigorate + plenty of refreshes. Ideally both.
+> - Guildmaster certification recommended, depends on which rotation used.
+> - Runes in pouches for the spells you want to use (Prism of restoration, smoke cloud, invoke death)
 > - (Strongly Recommended): 300-400m+ to buy sufficient supplies for running all day
-> - (Strongly Recommended) Undead slayer perk
+> - (Strongly Recommended): Undead slayer perk on gear
+> - (Strongly Recommended): Vulnerability bombs
+> - (Recommended): Luck ring switch
+
+T95 Invigorate Rotation
+> - Level 115 herblore for adrenaline renewal potions
+> - Supreme invigorate Aura + plenty of Tier4 refreshs (Requires Supreme invigorate 24/7)
+> - EOF with Death Grasp stored
+
+T95 Equilibrium (with Conservation of Energy)
+> - Divert
+> - EOF with Death Grasp stored
+> - (Recommended) Level 115 herblore for adrenaline renewal potions
+>
+> Without CoE:
+> - Supreme invigorate Aura + plenty of Tier4 refreshs (Requires Supreme invigorate 24/7)
+
+T90 Equilibrium (with Conservation of Energy)
+> - Divert
+> - (Recommended) Level 115 herblore for adrenaline renewal potions
+>
+> Without CoE:
+> - Supreme invigorate Aura + plenty of Tier4 refreshs (Requires Supreme invigorate 24/7)
 
 
 </ContentBlock>
