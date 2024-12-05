@@ -12,7 +12,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 import changes from './changes.json';
 
 
-<TopBanner title="UberChop" version="v0.0.1" author="Uberith" skill="Woodcutting">
+<TopBanner title="UberChop" version="v1.0.0" author="Uberith" skill="Woodcutting">
 </TopBanner>
 
 ---
@@ -21,8 +21,7 @@ import changes from './changes.json';
 
 <ContentBlock title="Cost">
 
- - **BETA**: FREE / month (not including client access)
- - **Post-Beta**: TBD Coins / Month
+ - **Cost**: 8 Coins / Month (not including client access)
 
 </ContentBlock>
 
@@ -33,23 +32,28 @@ import changes from './changes.json';
 <ContentBlock title="Features">
 
 > - Automatic navigation to precise coordinate-based locations to ensure accurate navigation to tree locations and banks, minimizing inefficiencies in movement.
-> - Persistent settings is used by the script to save user preferences such as the selected location, tree type, and nest-pickup options, ensuring settings are restored across sessions.
-> - Randomized delays to simulate human-like behavior, the script employs a fuzzy random delay function, adding randomness to interactions and navigation timings to avoid detection.
-> - Banking automation that intelligently detects when the player's inventory is full and automatically navigates to the nearest bank, deposits the logs, and returns to continue chopping.
-> - If a wood box is present in the player's inventory, the script will interact with it to fill it with logs, freeing up additional inventory space for longer chopping sessions.
-
-> - Chop trees in 9 Locations: 
+> - Persistent settings save user preferences such as the selected location, tree type, and nest-pickup options, ensuring settings are restored across sessions.
+> - Randomized delays simulate human-like behavior with fuzzy random delay functions, adding variability to interactions and navigation timings to avoid detection.
+> - Banking automation intelligently detects when the player's inventory is full, automatically navigates to the nearest bank, deposits the logs, and returns to continue chopping.
+> - Log box integration interacts with wood boxes in the player's inventory, filling them with logs to free up additional inventory space and extend chopping sessions.
+> - Dynamic tree selection supports various tree types, including regular trees, Oaks, Willows, Yews, Maples, Elder Trees, Teak, Mahogany, and Acadia.
+> - Nest collection automation detects and picks up bird nests that drop during woodcutting, ensuring valuable resources are not overlooked.
+> - Location-specific adaptation ensures optimized navigation for 11 locations:
 >   - Burthorpe
 >   - Draynor Village
 >   - Edgeville
->   - Etceteria
 >   - Falador
+>   - Kharazi Jungle
 >   - Lumbridge
+>   - Menaphos
 >   - Seer's Village
+>   - Tai Bwo Wannai
 >   - Uzer
 >   - Varrock
->   - Varrock Palace
-> - Stop and Start Button
+> - Skill progression tracking provides insights into experience and levels gained during woodcutting sessions.
+> - Comprehensive debugging and feedback provides real-time updates on the script's actions, including current location, inventory status, and next planned action.
+> - Efficient resource management balances inventory handling, travel distances, and chopping speed for optimal results.
+
 
 
 ##### Supported Logs
@@ -67,10 +71,30 @@ import changes from './changes.json';
 
 =========
 > - Bloodwood
-> - Elder
 
 
 </ContentBlock>
+
+---
+
+## Menu Screens
+
+<ContentBlock title="Menu Screens">
+
+### Main Configuration Screen
+![Main Configuration Screen](./01UberChop.png)
+
+### Statistics Panel
+![Main Configuration Screen](./02UberChop.png)
+
+### Advanced Settings Panel
+![Main Configuration Screen](./03UberChop.png)
+
+### Debug Panel
+![Main Configuration Screen](./04UberChop.png)
+
+</ContentBlock>
+
 
 ---
 
@@ -86,11 +110,7 @@ import changes from './changes.json';
 ## Product Roadmap
 
 <ContentBlock title="Product Roadmap">
-> - Add support for unsupported trees
-> - Add support for additional locations
->   - **Player Suggestion:** Add a Khazari Jungle's Mahogany location - Has two Mahogany trees super close together, better than Ape Atoll
 > - **Player Suggestion:** Add support to have secondary actions if chopping high level trees (e.g. Elder Tree) to then do something else. Based on user input, it could begin chopping another tree (e.g. Yew), or teleport to another location to chop the high level tree.
-> - Add support to pickup bird's nests
 > - Add support for lightform/crystalize
 > - **Player Suggestion:** 
 >   - Add Support for Ancient Elven Ritual Shard (for useage with lightform/crystalize)

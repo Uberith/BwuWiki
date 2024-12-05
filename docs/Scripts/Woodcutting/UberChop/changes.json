@@ -1,4 +1,13 @@
 [
+    {
+        "date": "2024-12-04",
+        "title": "v1.0.0",
+        "items": [
+            "Full Release",
+            "Added support for additional locations and trees",
+            "Fixed bugs discovered in beta"
+        ]
+    },
      {
         "date": "2024-10-27",
         "title": "v0.0.1",
